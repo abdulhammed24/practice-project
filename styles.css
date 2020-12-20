@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 2rem;
+}
+
+@media all and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #0000008c;
+    padding: 0;
+  }
+}
+
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+
+
+.aos-animate {
+  background-color: #000000e6;
+  font-size: 16px;
+}
+
+#header .aos-animate .nav-link {
+  color: white;
+}
+
+#header .aos-animate .nav-link:hover {
+  color: #cc4444;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #d48888;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #cc4444;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  background-color: #f3e7ec;
+}
+
+/* HEADER */
+/* <!-- BACKGROUND IMAGES SECTION --> */
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/background.jpg) no-repeat center center;
+  background-size: cover;
+  -moz-background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover;
+  height: 100vh;
+  weight: 100vw;
+}
+
+.h4, h4 {
+  color: #d64381;
+}
+
+#home .btn-outline-secondary {
+  color: #ffffff;
+  border-radius: 0;
+  background-color: #995172;
+  border-color: #995172;
+  box-shadow: 3px 3px 5px 6px #4b3737;
+}
+
+#home .btn-outline-secondary:hover {
+  color: white;
+  border-radius: 0.3rem;
+  border-color: #d64381;
+  background-color: #d64381;
+}
+
+/* <!-- BACKGROUND IMAGES SECTION --> */
+/* ABOUT US */
+#about-us {
+  background-color: #f3e7ec;
+}
+
+#about-us, h2 {
+  font-weight: bold;
+  color: black;
+}
+
+#about-us, p {
+  color: #575751;
+  font-weight: normal;
+}
+
+#about-us, ul {
+  list-style-type: none;
+}
+
+@media all and (max-width: 1091px) {
+  #about-us, .learn-more {
+    width: 100%;
+  }
+}
+
+/* SEVICES SECTION */
+.card-title {
+  color: #9f4e14;
+  font-size: 2rem;
+}
+
+.card-text {
+  color: #bc3f0f;
+  font-weight: bold;
+}
+
+/* SEVICES SECTION */
+/* TEAM SECTION */
+#team {
+  background-color: #f3e7ec;
+}
+
+/* TEAM SECTION */
+/* PRICING SECTION */
+.pricing .box {
+  padding: 20px;
+  background: #f3e7ec;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #f9f9f9;
+}
+
+/* PRICING SECTION */
+/* CONTACT SECTION */
+#contact {
+  background-color: #f3e7ec;
+}
+
+#contact .social-icon a {
+  padding: 0 5px;
+  border-radius: 50%;
+  color: black;
+}
+
+#contact .social-icon a .fa-twitter:hover {
+  color: #00acee;
+}
+
+#contact .social-icon a .fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+#contact .social-icon a .fa-linkedin-in:hover {
+  color: #0e76a8;
+}
+
+#contact .social-icon a .fa-github:hover {
+  color: #888585;
+}
+
+#contact .info a {
+  color: #223549d1;
+}
+
+/* CONTACT SECTION */
+/* FOOTER SECTION */
+#footer h5 {
+  font-size: 0.8rem;
+}
+
+#footer p {
+  font-size: 0.9rem;
+}
+
+#footer .footer-links a {
+  color: black;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+#footer .footer-links a:hover {
+  color: #ebbfd1;
+}
+
+/* FOOTER SECTION */
